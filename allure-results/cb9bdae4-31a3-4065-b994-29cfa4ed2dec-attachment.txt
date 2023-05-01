@@ -1,0 +1,211 @@
+[INFO ] 2023-05-01 13:55:54.398 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Powered by SHAFT Engine v7.1.20230321                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-05-01 13:55:55.408 [main] ReportManager - Loaded OpenCV "opencv_java460".
+[INFO ] 2023-05-01 13:55:55.413 [main] ReportManager - Folder "execution-summary" was not found, it may have already been deleted.
+[INFO ] 2023-05-01 13:55:55.414 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-05-01 13:55:55.584 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-05-01 13:55:56.446 [main] Utils - [TestNG] Running:
+  C:\Users\ashra\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+[INFO ] 2023-05-01 13:55:56.480 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                       'io.github.shafthq.shaft.listeners.ConfigurationHelper.suiteSetup'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-05-01 13:55:56.599 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-05-01 13:55:56.602 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-05-01 13:55:56.729 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of befor class configuration method                                             
+                                            'Authantication.ResetPassword.Forget_Pssword.BeforClass'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-05-01 13:55:56.880 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                         Test Method: 'Authantication.ResetPassword.Forget_Pssword.TC_01_Forget_Pssword_Successfully_'                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[DEBUG] 2023-05-01 13:55:59.241 [main] BasicClientConnectionManager - Get connection for route {s}->https://provider.test.carefer.co:443
+[DEBUG] 2023-05-01 13:55:59.389 [main] DefaultClientConnectionOperator - Connecting to provider.test.carefer.co:443
+[DEBUG] 2023-05-01 13:55:59.711 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-05-01 13:55:59.712 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-05-01 13:55:59.713 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-05-01 13:55:59.713 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-05-01 13:55:59.713 [main] DefaultHttpClient - Attempt 1 to execute request
+[DEBUG] 2023-05-01 13:55:59.713 [main] DefaultClientConnection - Sending request: POST /api/fleet/v1/auth/forget-password HTTP/1.1
+[DEBUG] 2023-05-01 13:55:59.714 [main] wire -  >> "POST /api/fleet/v1/auth/forget-password HTTP/1.1[\r][\n]"
+[DEBUG] 2023-05-01 13:55:59.715 [main] wire -  >> "Platform: careferFleet.eyJhbGciOiJ2Ej!%IUzI1NiIs[\r][\n]"
+[DEBUG] 2023-05-01 13:55:59.715 [main] wire -  >> "Accept: application/json[\r][\n]"
+[DEBUG] 2023-05-01 13:55:59.715 [main] wire -  >> "Accept-Language: en[\r][\n]"
+[DEBUG] 2023-05-01 13:55:59.715 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-05-01 13:55:59.715 [main] wire -  >> "Content-Length: 31[\r][\n]"
+[DEBUG] 2023-05-01 13:55:59.715 [main] wire -  >> "Host: provider.test.carefer.co[\r][\n]"
+[DEBUG] 2023-05-01 13:55:59.715 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-05-01 13:55:59.715 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)[\r][\n]"
+[DEBUG] 2023-05-01 13:55:59.716 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-05-01 13:55:59.716 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2023-05-01 13:55:59.716 [main] headers - >> POST /api/fleet/v1/auth/forget-password HTTP/1.1
+[DEBUG] 2023-05-01 13:55:59.716 [main] headers - >> Platform: careferFleet.eyJhbGciOiJ2Ej!%IUzI1NiIs
+[DEBUG] 2023-05-01 13:55:59.716 [main] headers - >> Accept: application/json
+[DEBUG] 2023-05-01 13:55:59.716 [main] headers - >> Accept-Language: en
+[DEBUG] 2023-05-01 13:55:59.716 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2023-05-01 13:55:59.716 [main] headers - >> Content-Length: 31
+[DEBUG] 2023-05-01 13:55:59.716 [main] headers - >> Host: provider.test.carefer.co
+[DEBUG] 2023-05-01 13:55:59.716 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-05-01 13:55:59.716 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+[DEBUG] 2023-05-01 13:55:59.717 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-05-01 13:55:59.718 [main] wire -  >> "{"email":"mramadan@carefer.co"}"
+[DEBUG] 2023-05-01 13:56:00.460 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.462 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.462 [main] wire -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.462 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.462 [main] wire -  << "Date: Mon, 01 May 2023 11:56:00 GMT[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.462 [main] wire -  << "X-Powered-By: PHP/8.1.18[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.462 [main] wire -  << "Cache-Control: no-cache, private[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.462 [main] wire -  << "X-RateLimit-Limit: 120[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.463 [main] wire -  << "X-RateLimit-Remaining: 119[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.463 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.463 [main] wire -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.463 [main] wire -  << "Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.463 [main] wire -  << "Access-Control-Allow-Headers: Origin, Content-Type, platform, X-Auth-Token, Authorization, Accept,charset,boundary,Content-Length[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.463 [main] wire -  << "Access-Control-Max-Age: 1728000[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.463 [main] wire -  << "X-Cache: Miss from cloudfront[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.463 [main] wire -  << "Via: 1.1 b0dab21d1146221f7953e79e7e954d2c.cloudfront.net (CloudFront)[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.463 [main] wire -  << "X-Amz-Cf-Pop: MRS52-C1[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.463 [main] wire -  << "X-Amz-Cf-Id: Vk5NxLBZJkvtR78r1t0EfGYEQGwdOOj0waqfjNgdScNbDweeqLAJCQ==[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.463 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.464 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2023-05-01 13:56:00.464 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2023-05-01 13:56:00.464 [main] headers - << Content-Type: application/json
+[DEBUG] 2023-05-01 13:56:00.464 [main] headers - << Transfer-Encoding: chunked
+[DEBUG] 2023-05-01 13:56:00.464 [main] headers - << Connection: keep-alive
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << Date: Mon, 01 May 2023 11:56:00 GMT
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << X-Powered-By: PHP/8.1.18
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << Cache-Control: no-cache, private
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << X-RateLimit-Limit: 120
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << X-RateLimit-Remaining: 119
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << Access-Control-Allow-Credentials: true
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << Access-Control-Allow-Headers: Origin, Content-Type, platform, X-Auth-Token, Authorization, Accept,charset,boundary,Content-Length
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << Access-Control-Max-Age: 1728000
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << X-Cache: Miss from cloudfront
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << Via: 1.1 b0dab21d1146221f7953e79e7e954d2c.cloudfront.net (CloudFront)
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << X-Amz-Cf-Pop: MRS52-C1
+[DEBUG] 2023-05-01 13:56:00.465 [main] headers - << X-Amz-Cf-Id: Vk5NxLBZJkvtR78r1t0EfGYEQGwdOOj0waqfjNgdScNbDweeqLAJCQ==
+[DEBUG] 2023-05-01 13:56:00.471 [main] DefaultHttpClient - Connection can be kept alive indefinitely
+[DEBUG] 2023-05-01 13:56:00.475 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2023-05-01 13:56:00.476 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-05-01 13:56:00.512 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2023-05-01 13:56:00.523 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "true" and Actual "true". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2023-05-01 13:56:00.555 [main] wire -  << "4c[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.555 [main] wire -  << "{"message":"Success Sent Fleet Reset Password Verification Code.","data":[]}"
+[DEBUG] 2023-05-01 13:56:00.555 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.556 [main] wire -  << "0[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.556 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-05-01 13:56:00.556 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@38cbbd0b
+[DEBUG] 2023-05-01 13:56:00.556 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-05-01 13:56:01.384 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[DEBUG] 2023-05-01 13:56:01.415 [main] cache - Couldn't find template in cache for "codeblock.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-01 13:56:01.416 [main] cache - TemplateLoader.findTemplateSource("codeblock_en_US.ftl"): Not found
+[DEBUG] 2023-05-01 13:56:01.417 [main] cache - TemplateLoader.findTemplateSource("codeblock_en.ftl"): Not found
+[DEBUG] 2023-05-01 13:56:01.418 [main] cache - TemplateLoader.findTemplateSource("codeblock.ftl"): Found
+[DEBUG] 2023-05-01 13:56:01.418 [main] cache - Loading template for "codeblock.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ashra/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/markup/codeblock.ftl"
+[DEBUG] 2023-05-01 13:56:01.571 [main] cache - Couldn't find template in cache for "codeblock.json.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-05-01 13:56:01.571 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en_US.ftl"): Not found
+[DEBUG] 2023-05-01 13:56:01.571 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en.ftl"): Not found
+[DEBUG] 2023-05-01 13:56:01.572 [main] cache - TemplateLoader.findTemplateSource("codeblock.json.ftl"): Found
+[DEBUG] 2023-05-01 13:56:01.572 [main] cache - Loading template for "codeblock.json.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ashra/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/markup/codeblock.json.ftl"
+[INFO ] 2023-05-01 13:56:01.601 [main] ReportManager - Successfully created attachment 'API Request - JSON Body'
+[INFO ] 2023-05-01 13:56:01.602 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[DEBUG] 2023-05-01 13:56:01.614 [main] BasicClientConnectionManager - Get connection for route {s}->https://provider.test.carefer.co:443
+[DEBUG] 2023-05-01 13:56:01.614 [main] DefaultClientConnectionOperator - Connecting to provider.test.carefer.co:443
+[DEBUG] 2023-05-01 13:56:01.776 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-05-01 13:56:01.776 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-05-01 13:56:01.776 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-05-01 13:56:01.776 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-05-01 13:56:01.777 [main] DefaultHttpClient - Attempt 1 to execute request
+[DEBUG] 2023-05-01 13:56:01.777 [main] DefaultClientConnection - Sending request: POST /api/fleet/v1/auth/confirm-change-password HTTP/1.1
+[DEBUG] 2023-05-01 13:56:01.777 [main] wire -  >> "POST /api/fleet/v1/auth/confirm-change-password HTTP/1.1[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.777 [main] wire -  >> "Platform: careferFleet.eyJhbGciOiJ2Ej!%IUzI1NiIs[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.777 [main] wire -  >> "Accept: application/json[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.777 [main] wire -  >> "Accept-Language: en[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.777 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.777 [main] wire -  >> "Content-Length: 44[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.777 [main] wire -  >> "Host: provider.test.carefer.co[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.777 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.777 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.777 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.777 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.777 [main] headers - >> POST /api/fleet/v1/auth/confirm-change-password HTTP/1.1
+[DEBUG] 2023-05-01 13:56:01.777 [main] headers - >> Platform: careferFleet.eyJhbGciOiJ2Ej!%IUzI1NiIs
+[DEBUG] 2023-05-01 13:56:01.777 [main] headers - >> Accept: application/json
+[DEBUG] 2023-05-01 13:56:01.777 [main] headers - >> Accept-Language: en
+[DEBUG] 2023-05-01 13:56:01.777 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2023-05-01 13:56:01.778 [main] headers - >> Content-Length: 44
+[DEBUG] 2023-05-01 13:56:01.778 [main] headers - >> Host: provider.test.carefer.co
+[DEBUG] 2023-05-01 13:56:01.778 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-05-01 13:56:01.778 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+[DEBUG] 2023-05-01 13:56:01.778 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-05-01 13:56:01.778 [main] wire -  >> "{"otp":"9531","email":"mramadan@carefer.co"}"
+[DEBUG] 2023-05-01 13:56:01.935 [main] wire -  << "HTTP/1.1 404 Not Found[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.935 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.936 [main] wire -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.936 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.936 [main] wire -  << "Date: Mon, 01 May 2023 11:56:02 GMT[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.936 [main] wire -  << "X-Powered-By: PHP/8.1.18[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.936 [main] wire -  << "Cache-Control: no-cache, private[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.937 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.937 [main] wire -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.937 [main] wire -  << "Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.938 [main] wire -  << "Access-Control-Allow-Headers: Origin, Content-Type, platform, X-Auth-Token, Authorization, Accept,charset,boundary,Content-Length[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.938 [main] wire -  << "Access-Control-Max-Age: 1728000[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.938 [main] wire -  << "X-Cache: Error from cloudfront[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.938 [main] wire -  << "Via: 1.1 530a306424ce255cfb6ec1f66bace774.cloudfront.net (CloudFront)[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.939 [main] wire -  << "X-Amz-Cf-Pop: MRS52-C1[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.939 [main] wire -  << "X-Amz-Cf-Id: Pig8aFktEOIZHZwR8GMQYG41C1SXt_DuyQG_aG_W1wP52f3GtKAzog==[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.939 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.939 [main] DefaultClientConnection - Receiving response: HTTP/1.1 404 Not Found
+[DEBUG] 2023-05-01 13:56:01.939 [main] headers - << HTTP/1.1 404 Not Found
+[DEBUG] 2023-05-01 13:56:01.940 [main] headers - << Content-Type: application/json
+[DEBUG] 2023-05-01 13:56:01.940 [main] headers - << Transfer-Encoding: chunked
+[DEBUG] 2023-05-01 13:56:01.940 [main] headers - << Connection: keep-alive
+[DEBUG] 2023-05-01 13:56:01.940 [main] headers - << Date: Mon, 01 May 2023 11:56:02 GMT
+[DEBUG] 2023-05-01 13:56:01.940 [main] headers - << X-Powered-By: PHP/8.1.18
+[DEBUG] 2023-05-01 13:56:01.940 [main] headers - << Cache-Control: no-cache, private
+[DEBUG] 2023-05-01 13:56:01.941 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2023-05-01 13:56:01.941 [main] headers - << Access-Control-Allow-Credentials: true
+[DEBUG] 2023-05-01 13:56:01.941 [main] headers - << Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+[DEBUG] 2023-05-01 13:56:01.941 [main] headers - << Access-Control-Allow-Headers: Origin, Content-Type, platform, X-Auth-Token, Authorization, Accept,charset,boundary,Content-Length
+[DEBUG] 2023-05-01 13:56:01.941 [main] headers - << Access-Control-Max-Age: 1728000
+[DEBUG] 2023-05-01 13:56:01.941 [main] headers - << X-Cache: Error from cloudfront
+[DEBUG] 2023-05-01 13:56:01.941 [main] headers - << Via: 1.1 530a306424ce255cfb6ec1f66bace774.cloudfront.net (CloudFront)
+[DEBUG] 2023-05-01 13:56:01.942 [main] headers - << X-Amz-Cf-Pop: MRS52-C1
+[DEBUG] 2023-05-01 13:56:01.942 [main] headers - << X-Amz-Cf-Id: Pig8aFktEOIZHZwR8GMQYG41C1SXt_DuyQG_aG_W1wP52f3GtKAzog==
+[DEBUG] 2023-05-01 13:56:01.943 [main] DefaultHttpClient - Connection can be kept alive indefinitely
+[DEBUG] 2023-05-01 13:56:01.943 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2023-05-01 13:56:01.943 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-05-01 13:56:01.945 [main] ReportManager - Response status code: "404", status line: "HTTP/1.1 404 Not Found"
+[INFO ] 2023-05-01 13:56:01.949 [main] ReportManager - Assertion "ValidateEquals" FAILED. Expected "true" and Actual "false". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2023-05-01 13:56:01.950 [main] wire -  << "15[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.950 [main] wire -  << "{[\n]"
+[DEBUG] 2023-05-01 13:56:01.950 [main] wire -  << "    "message": ""[\n]"
+[DEBUG] 2023-05-01 13:56:01.950 [main] wire -  << "}"
+[DEBUG] 2023-05-01 13:56:01.950 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.950 [main] wire -  << "0[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.950 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-05-01 13:56:01.951 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2220910
+[DEBUG] 2023-05-01 13:56:01.951 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-05-01 13:56:01.967 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2023-05-01 13:56:01.969 [main] ReportManager - Successfully created attachment 'API Request - JSON Body'
+[INFO ] 2023-05-01 13:56:01.972 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[INFO ] 2023-05-01 13:56:01.988 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: TC_01_Forget_Pssword_Successfully_'
+[INFO ] 2023-05-01 13:56:02.097 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of suite teardown configuration method                                           
+                                     'io.github.shafthq.shaft.listeners.ConfigurationHelper.suiteTeardown'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-05-01 13:56:02.098 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-05-01 13:56:02.099 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-05-01 13:56:02.100 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

@@ -1,0 +1,19 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                         Test Method: 'Authantication.ResetPassword.Forget_Pssword.TC_01_Forget_Pssword_Successfully_'                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @01-05-2023 13:56:00.0512 PM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "true" and Actual "true". Comparison Type "EQUALS". Validation Type "POSITIVE". @01-05-2023 13:56:00.0523 PM
+[ReportManager] Assertion Passed: Evaluating that the response is successful (Status code is between 200 and 299)... @01-05-2023 13:56:00.0524 PM
+[ReportManager] Perform request "POST | Target Status Code: 0 | Service URL: https://provider.test.carefer.co/api/fleet/v1/auth/forget-password | Content Type: application/json | Response Time: 1753ms". @01-05-2023 13:56:01.0383 PM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @01-05-2023 13:56:01.0384 PM
+[ReportManager] Successfully created attachment 'API Request - JSON Body' @01-05-2023 13:56:01.0601 PM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @01-05-2023 13:56:01.0602 PM
+[ReportManager] Response status code: "404", status line: "HTTP/1.1 404 Not Found" @01-05-2023 13:56:01.0945 PM
+[ReportManager] Assertion "ValidateEquals" FAILED. Expected "true" and Actual "false". Comparison Type "EQUALS". Validation Type "POSITIVE". @01-05-2023 13:56:01.0948 PM
+[ReportManager] Assertion Failed: Evaluating that the response is successful (Status code is between 200 and 299)... @01-05-2023 13:56:01.0949 PM
+[ReportManager] Perform request failed "POST | Target Status Code: 0 | Service URL: https://provider.test.carefer.co/api/fleet/v1/auth/confirm-change-password | Content Type: application/json | Response Time: 336ms". @01-05-2023 13:56:01.0966 PM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @01-05-2023 13:56:01.0967 PM
+[ReportManager] Successfully created attachment 'API Request - JSON Body' @01-05-2023 13:56:01.0969 PM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @01-05-2023 13:56:01.0971 PM

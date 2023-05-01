@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.github.shafthq:SHAFT_ENGINE:7.1.20230321">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/shafthq/SHAFT_ENGINE/7.1.20230321/SHAFT_ENGINE-7.1.20230321.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/shafthq/SHAFT_ENGINE/7.1.20230321/SHAFT_ENGINE-7.1.20230321-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/shafthq/SHAFT_ENGINE/7.1.20230321/SHAFT_ENGINE-7.1.20230321-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
